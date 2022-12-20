@@ -15,6 +15,7 @@ if (idade >= 65 || tmp_serv >= 30 || idade >= 60 && tmp_serv >= 25) {
     } else if (sal_aposent > 7087.22) {
         sal_aposent = 7087.22;
     }
+    console.log("Você pode se aposentar!"); 
     console.log("Seu salário de aposentadoria será: ", sal_aposent);  
 
 } else {
